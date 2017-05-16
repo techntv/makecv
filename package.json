@@ -1,0 +1,37 @@
+{
+  "name": "yourcv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "start": "node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-metalsmith": "^1.1.0",
+    "handlebars": "^4.0.8",
+    "metalsmith": "^2.3.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-browser-sync": "^1.1.1",
+    "metalsmith-collections": "^0.9.0",
+    "metalsmith-feed": "^0.2.0",
+    "metalsmith-html-minifier": "^2.2.0",
+    "metalsmith-in-place": "^2.0.1",
+    "metalsmith-layouts": "^1.8.1",
+    "metalsmith-mapsite": "^1.0.4",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-publish": "^0.1.5",
+    "metalsmith-word-count": "0.0.4"
+  },
+  "dependencies": {
+    "metalsmith": "^2.3.0",
+    "metalsmith-collections": "^0.9.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-matters": "^1.2.0",
+    "metalsmith-templates": "^0.7.0"
+  }
+}
